@@ -5,6 +5,8 @@
  */
 package pizzashop;
 
+import com.sun.org.apache.xalan.internal.xsltc.compiler.util.Type;
+
 /**
  * A class that creates different kinds of pizzas
  * depending on their type.
@@ -15,6 +17,10 @@ package pizzashop;
  */
 class PizzaFactory 
 {
+
+    static Pizza createPizza(Type String) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     /**
      * returns a concrete pizza object
      * @param type the type of pizza to return
